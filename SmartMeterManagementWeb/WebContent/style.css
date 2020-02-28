@@ -1,0 +1,211 @@
+#webpage{
+	margin-left: 15%;
+	margin-right: 15px;
+	width: 80%;
+}
+
+.active{
+	background-color: green;
+	color: white;
+}
+
+body{
+	font-family: Georgia, 'Times New Roman', Times, serif; font-size: 80%;
+	line-height: 1.2em; width: 100%; margin: 0px;
+}
+
+#header{
+	width: 100%;
+	height: 10%;
+	border-bottom:3px solid grey;
+}
+
+#random p{
+	display: inline;
+}
+
+h1 {
+	height: 8px;
+	margin-left: 15px;
+}
+
+#nav ul {
+	list-style-type: none;
+    margin: 0;
+    margin-right: 15%;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+	background-color: grey;
+}
+
+#nav ul li a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 120%;
+}
+
+#nav ul li a:hover{
+	background-color: green;
+	color: white;
+}
+
+
+
+#content{
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 1px 1px 1px #999;
+	clear: both;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+
+}
+th, td{
+	padding: 15px;
+	text-align: left;
+}
+
+th{
+	background-color: green;
+	color: gainsboro;
+
+}
+
+tr:hover{
+	background-color: lightgray;
+	cursor: hand;
+	cursor: pointer;
+	}
+
+#pic{
+	text-align: center;
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+
+#info{
+	position: relative;
+	left: 25%;
+	width: 50%;
+	text-align: center;
+	font-size: 120%;
+}
+
+#meter{
+	padding: 10px 10px;
+	clear: both;
+	border-bottom: 3px solid grey;
+}
+
+#login{
+	height: 300px;
+	text-align: center;
+	
+}
+
+#warning{
+	color: red;
+	font-size: 120%;
+	line-height: 150%;
+}
+
+#ablesewerte{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+#input{
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	font-size: 120%;
+	margin: 1em;
+	vertical-align: top;
+}
+
+#output{
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	font-size: 120%;
+	margin: 1em;
+	vertical-align: top;
+}
+
+#hint{
+	text-align: center;
+	font-size: 120%;
+}
+
+#login{
+	text-align: center;
+	vertical-align: center;
+	font-size: 120%;
+}
+
+#loginfail{
+	color: red;
+	font-size: 130%;
+	line-height: 150%;
+	
+}
+
+#meter-creator{
+	text-align: center;
+	align: center;
+}
+
+#register{
+	text-align: center;
+	vertical-align: center;
+	font-size: 120%;
+	clear: both;
+}
+
+#user{
+	text-align: center;
+	vertical-align: center;
+	font-size: 120%;
+}
+
+creation{
+	text-align: center;
+	vertical-align: center;
+	font-size: 120%;
+	clear: both
+}
+
+#new-meter{
+	text-align: center;
+	vertical-align: center;
+	font-size: 120%;
+}
+
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: right;
+}
+
+#footer p{
+	margin-right: 10px;
+}
